@@ -1,12 +1,13 @@
 package controllers
 
-import play.api._
+import play.api.libs.concurrent.Execution.Implicits.defaultContext
+import org.slf4j.{LoggerFactory, Logger}
 import play.api.mvc._
 
-class Application extends Controller {
+object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+    Ok(views.html.index("OpenSchool"))
   }
 
 }
