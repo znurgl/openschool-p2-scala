@@ -9,7 +9,7 @@ It's an open web platform for schools.
 ## Usage
 The application uses Docker: https://www.docker.com/
  1. First you need to build a Docker image: docker build -t znurgl/openschool .
- 2. Run the application: docker run -i -t -p 8080:9000 -v <full-path-of-source>:/src znurgl/openschool
+ 2. Run the application: docker run -i -t -p 8080:9000 -v {full-path-of-source}:/src znurgl/openschool
 
 ## Issues
 All project related tasks and bugs are under the 'issues' of this github page.
